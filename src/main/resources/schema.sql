@@ -1,0 +1,6 @@
+CREATE TABLE tr_balance (
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  balance FLOAT NOT NULL,
+  user_id INTEGER NOT NULL,
+  PRIMARY KEY (id)
+);
