@@ -4,3 +4,11 @@ CREATE TABLE tr_balance (
   user_id INTEGER NOT NULL,
   PRIMARY KEY (id)
 );
+
+CREATE TABLE usuario (
+  id INTEGER NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(250) NOT NULL,
+  email VARCHAR(250) NOT NULL,
+  password VARCHAR(250) NOT NULL,
+  PRIMARY KEY (id)
+);
